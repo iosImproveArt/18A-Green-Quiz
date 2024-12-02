@@ -6,12 +6,12 @@ workflows:
         
         ios_signing:
             distribution_type: app_store
-            bundle_identifier: com.neoquiz
+            bundle_identifier: com.greenquiz
             
         groups:
             - DEFAULT
         vars:
-          BUNDLE_ID: "com.neoquiz"
+          BUNDLE_ID: "com.greenquiz"
           XCODE_WORK: "Green Quiz.xcodeproj"
           XCODE_SCHEME: "Green Quiz"
           

@@ -11,7 +11,7 @@ struct PrivacyViewGQ: View {
     @AppStorage("urlString") var urlString = ""
     
     var bg: Color {
-        urlString.isEmpty ? Color.hex("#6ED900"): .black
+        urlString.isEmpty ? Color.hex("#164310"): .black
     }
     
     var ehngfjmr = "rfc3"
