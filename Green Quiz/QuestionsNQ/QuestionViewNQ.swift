@@ -20,6 +20,12 @@ struct QuestionViewGQ: View {
         print("gnmfr")
     }
     
+    
+    func ejufek() -> Int {
+        print(2 + 3)
+        return 2 + 3
+    }
+    var jrncfm = [352: "crfc"]
     init(type: GameType) {
         _vm = StateObject(wrappedValue: QuestionViewModelGQ(typeOfGame: type))
     }

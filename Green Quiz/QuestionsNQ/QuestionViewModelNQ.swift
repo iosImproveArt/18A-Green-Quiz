@@ -18,6 +18,12 @@ class QuestionViewModelGQ: ObservableObject {
         print("gnmfr")
     }
     
+    
+    func ejufek() -> Int {
+        print(2 + 3)
+        return 2 + 3
+    }
+    var jrncfm = [352: "crfc"]
     @AppStorage("userNickname") var player1 = "IamNewUser"
     @Published var player2 = ""
     @Published var heartCount = 3

@@ -18,6 +18,12 @@ struct Neo_QuizAppGQ: App {
         print("gnmfr")
     }
     
+    
+    func ejufek() -> Int {
+        print(2 + 3)
+        return 2 + 3
+    }
+    var jrncfm = [352: "crfc"]
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
